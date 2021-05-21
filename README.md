@@ -35,3 +35,32 @@ cd ~/catkin_ws/src
 * Se clona el directorio dentro de la carpeta
 
 
+```
+git clone https://github.com/santiago-v-2013/Proyecto_Reconocimiento_Figuras_CV2_ROS.git
+
+```
+
+## 3) Ejecutar el launch
+
+* Se inicializa el roscore en un primer terminal
+
+```
+roscore
+```
+
+* Se ejecuta el launch que contiene la configuracion de la camara y de los nodos necesarios
+```
+roslaunch proyecto identificar.launch
+```
+
+## Agradecimientos
+
+Parte de este proyecto esta inspirado en el codigo de Gaby de Omes pero ajustado en un nodo de ROS
+
+Link: https://www.youtube.com/channel/UCCDvMED1sysAbF5qOfmEw3A
+
+## Autores
+
+* Santiago Vasquez 
+
+
