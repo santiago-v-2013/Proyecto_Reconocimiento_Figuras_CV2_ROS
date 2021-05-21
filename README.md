@@ -55,7 +55,7 @@ roslaunch proyecto identificar.launch
 
 ## Agradecimientos
 
-Parte de este proyecto esta inspirado en el codigo de Gaby de Omes pero ajustado en un nodo de ROS
+Parte del codigo de "figuras.py" fue extraido del codigo del canal de youtube Omes.
 
 Link: https://www.youtube.com/channel/UCCDvMED1sysAbF5qOfmEw3A
 
