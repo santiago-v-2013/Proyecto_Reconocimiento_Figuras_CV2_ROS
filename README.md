@@ -1,5 +1,5 @@
 # Proyecto_Reconocimiento_Figuras_CV2_ROS
-Este proyecto realiza un reconocimiento de figuras y sus colores utilizando la librería de OpenCv en ROS
+Este proyecto tiene como fin que mediante una camara se pueda realizar el reconocimiento de figuras como circulos, cuadrados, hexagonos, pentagonos, restangulos y trinagulos haciendo uso de la librería OpenCv en ROS, debido a que esta facilita las etapas de filtrado y procesamiento de la imagen para llegar al reconocimiento final.
 
 ## 1) Crear workspace de catkin
 
