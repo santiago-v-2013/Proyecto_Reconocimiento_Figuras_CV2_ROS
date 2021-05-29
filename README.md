@@ -1,5 +1,10 @@
 # Proyecto_Reconocimiento_Figuras_CV2_ROS
+
 Este proyecto tiene como fin que mediante una camara se pueda realizar el reconocimiento de figuras como circulos, cuadrados, hexagonos, pentagonos, restangulos y trinagulos haciendo uso de la librería OpenCv en ROS, debido a que esta facilita las etapas de filtrado y procesamiento de la imagen para llegar al reconocimiento final.
+
+![Imagen 1: Reconocimiento de figuras y colores](https://github.com/santiago-v-2013/Proyecto_Reconocimiento_Figuras_CV2_ROS/blob/main/Imagenes/resultado.png)
+
+En la imagen anterior se puede observar el resultado. Apesar de las etapas de procesamiento se puede ver que hay un error en el reconocimiento del color azul, esto es cuestios de ajustar mejor los limites dentro del esquema de reconocimiento de color mediante el esquema HSV.
 
 ## 1) Crear workspace de catkin
 
@@ -52,12 +57,6 @@ roscore
 ```
 roslaunch proyecto identificar.launch
 ```
-
-## Agradecimientos
-
-Parte del codigo de "figuras.py" fue extraido del codigo del canal de youtube Omes.
-
-Link: https://www.youtube.com/channel/UCCDvMED1sysAbF5qOfmEw3A
 
 ## Autores
 
